@@ -1,0 +1,82 @@
+[
+    {
+        "activity": "Gestión de Inventario Básico - Crea un array de objetos que represente un inventario de productos. Cada producto debe tener: id, nombre, precio, categoria, stock. Declara al menos 5 productos y muestra todos los productos, total de productos en inventario y valor total del inventario.",
+        "solution": "ejercicios/ejercicio_01.js"
+    },
+    {
+        "activity": "Filtrado de Productos por Categoría - Usando el inventario del ejercicio anterior, utiliza el método filter() para mostrar solo productos de la categoría 'Electrónicos', productos con stock menor a 10 y productos con precio mayor a $500.",
+        "solution": "ejercicios/ejercicio_02.js"
+    },
+    {
+        "activity": "Transformación de Datos con map() - Crea un array de estudiantes con nombre, edad, notas (array de números). Usa map() para crear un nuevo array con solo los nombres, crear un array con el promedio de cada estudiante y agregar una propiedad estado ('Aprobado' si promedio >= 70, 'Reprobado' si < 70).",
+        "solution": "ejercicios/ejercicio_03.js"
+    },
+    {
+        "activity": "Análisis de Ventas con reduce() - Dado un array de ventas con producto, cantidad, precio, fecha. Usa reduce() para calcular total de ingresos, producto más vendido (por cantidad) y promedio de venta por transacción.",
+        "solution": "ejercicios/ejercicio_04.js"
+    },
+    {
+        "activity": "Búsqueda y Verificación - Crea un array de usuarios con id, nombre, email, activo. Implementa búsquedas usando find() para buscar usuario por email, findIndex() para obtener posición de usuario por id, some() para verificar si hay usuarios inactivos y every() para verificar si todos tienen email válido (contiene @).",
+        "solution": "ejercicios/ejercicio_05.js"
+    },
+    {
+        "activity": "Manipulación de Arrays - Crea un array inicial [1, 2, 3, 4, 5] y demuestra push() y pop() (agregar y quitar del final), shift() y unshift() (agregar y quitar del inicio), splice() (insertar elementos en posición específica) y slice() (extraer porción sin modificar original).",
+        "solution": "ejercicios/ejercicio_06.js"
+    },
+    {
+        "activity": "Ordenamiento y Reversión - Crea arrays de números desordenados (ordena ascendente y descendente), nombres de personas (ordena alfabéticamente), objetos con propiedad edad (ordena por edad) y usa reverse() para invertir el orden.",
+        "solution": "ejercicios/ejercicio_07.js"
+    },
+    {
+        "activity": "Desestructuración de Arrays - Dado el array ['JavaScript', 'Python', 'Java', 'C++', 'Go']: extrae los primeros 3 lenguajes, extrae el primero y el último, usa rest operator para separar el primero del resto e intercambia dos variables usando desestructuración.",
+        "solution": "ejercicios/ejercicio_08.js"
+    },
+    {
+        "activity": "Desestructuración de Objetos - Crea un objeto persona con propiedades anidadas (dirección, contacto). Demuestra desestructuración básica, renombrado de variables, valores por defecto, desestructuración anidada y rest operator en objetos.",
+        "solution": "ejercicios/ejercicio_09.js"
+    },
+    {
+        "activity": "Métodos de Objeto - Crea un objeto y demuestra Object.keys() (obtener claves), Object.values() (obtener valores), Object.entries() (obtener pares clave-valor) e iterar sobre el objeto con forEach().",
+        "solution": "ejercicios/ejercicio_10.js"
+    },
+    {
+        "activity": "Combinación de Objetos - Crea múltiples objetos y demuestra Object.assign() para combinar objetos, spread operator para clonar y combinar, sobrescritura de propiedades y clonación profunda vs superficial.",
+        "solution": "ejercicios/ejercicio_11.js"
+    },
+    {
+        "activity": "Sistema de Calificaciones - Crea un sistema que almacene estudiantes con múltiples materias y notas, calcule promedio por materia y general, identifique estudiantes en riesgo (promedio < 60) y use filter(), map(), reduce() combinados.",
+        "solution": "ejercicios/ejercicio_12.js"
+    },
+    {
+        "activity": "Carrito de Compras Avanzado - Implementa un carrito que agregue productos (si existe, incremente cantidad), remueva productos completamente, actualice cantidades, calcule subtotales, impuestos (16%) y total, y aplique descuentos por cantidad.",
+        "solution": "ejercicios/ejercicio_13.js"
+    },
+    {
+        "activity": "Procesamiento de Datos CSV - Simula datos CSV como string y convierte a array de objetos usando split() y map(), filtra registros por criterios específicos, agrupa datos por categoría usando reduce() y genera reporte estadístico.",
+        "solution": "ejercicios/ejercicio_14.js"
+    },
+    {
+        "activity": "Métodos Avanzados de Arrays - Demuestra flat() con arrays anidados, flatMap() para transformar y aplanar, Array.from() para crear arrays desde iterables y Array.of() para crear arrays con elementos específicos.",
+        "solution": "ejercicios/ejercicio_15.js"
+    },
+    {
+        "activity": "Validación de Formulario - Crea un sistema de validación que use every() para verificar que todos los campos son válidos, some() para detectar errores, implemente reglas de validación con funciones y genere mensajes de error específicos.",
+        "solution": "ejercicios/ejercicio_16.js"
+    },
+    {
+        "activity": "Análisis de Texto - Dado un texto largo: convierte a array de palabras, cuenta frecuencia de cada palabra usando reduce(), encuentra palabras más comunes, filtra palabras por longitud y calcula estadísticas del texto.",
+        "solution": "ejercicios/ejercicio_17.js"
+    },
+    {
+        "activity": "Gestión de Empleados - Crea un sistema que almacene empleados con departamento, salario, fecha de ingreso, agrupe empleados por departamento, calcule salario promedio por departamento, identifique empleados con mayor antigüedad y genere reporte de nómina.",
+        "solution": "ejercicios/ejercicio_18.js"
+    },
+    {
+        "activity": "Manipulación de Fechas y Arrays - Crea un array de eventos con fechas y ordena eventos cronológicamente, filtra eventos del mes actual, agrupa eventos por mes, calcula días entre eventos y encuentra próximo evento.",
+        "solution": "ejercicios/ejercicio_19.js"
+    },
+    {
+        "activity": "Proyecto Integrador: Dashboard de Datos - Crea un dashboard que combine todo lo aprendido: múltiples fuentes de datos (usuarios, productos, ventas), métricas calculadas con reduce(), filtros dinámicos con filter(), transformaciones con map(), búsquedas con find(), validaciones con every() y some(), desestructuración para extraer datos y objetos para organizar resultados.",
+        "solution": "ejercicios/ejercicio_20.js"
+    }
+]
