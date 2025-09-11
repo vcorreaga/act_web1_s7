@@ -1,0 +1,89 @@
+{
+  "CMARTINEZ-095/act_web1_s7": {
+    "repositoryUrl": "CMARTINEZ-095/act_web1_s7",
+    "studentName": "Carlos Andrés Martinez Carvajal",
+    "activities": [
+      {
+        "activityDescription": "Gestión de Inventario Básico - Crea un array de objetos que represente un inventario de productos. Cada producto debe tener: id, nombre, precio, categoria, stock. Declara al menos 5 productos y muestra todos los productos, total de productos en inventario y valor total del inventario.",
+        "solutionFile": "ejercicios/ejercicio_01.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Filtrado de Productos por Categoría - Usando el inventario del ejercicio anterior, utiliza el método filter() para mostrar solo productos de la categoría 'Electrónicos', productos con stock menor a 10 y productos con precio mayor a $500.",
+        "solutionFile": "ejercicios/ejercicio_02.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Transformación de Datos con map() - Crea un array de estudiantes con nombre, edad, notas (array de números). Usa map() para crear un nuevo array con solo los nombres, crear un array con el promedio de cada estudiante y agregar una propiedad estado ('Aprobado' si promedio >= 70, 'Reprobado' si < 70).",
+        "solutionFile": "ejercicios/ejercicio_03.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Análisis de Ventas con reduce() - Dado un array de ventas con producto, cantidad, precio, fecha. Usa reduce() para calcular total de ingresos, producto más vendido (por cantidad) y promedio de venta por transacción.",
+        "solutionFile": "ejercicios/ejercicio_04.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Búsqueda y Verificación - Crea un array de usuarios con id, nombre, email, activo. Implementa búsquedas usando find() para buscar usuario por email, findIndex() para obtener posición de usuario por id, some() para verificar si hay usuarios inactivos y every() para verificar si todos tienen email válido (contiene @).",
+        "solutionFile": "ejercicios/ejercicio_05.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Manipulación de Arrays - Crea un array inicial [1, 2, 3, 4, 5] y demuestra push() y pop() (agregar y quitar del final), shift() y unshift() (agregar y quitar del inicio), splice() (insertar elementos en posición específica) y slice() (extraer porción sin modificar original).",
+        "solutionFile": "ejercicios/ejercicio_06.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Ordenamiento y Reversión - Crea arrays de números desordenados (ordena ascendente y descendente), nombres de personas (ordena alfabéticamente), objetos con propiedad edad (ordena por edad) y usa reverse() para invertir el orden.",
+        "solutionFile": "ejercicios/ejercicio_07.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Desestructuración de Arrays - Dado el array ['JavaScript', 'Python', 'Java', 'C++', 'Go']: extrae los primeros 3 lenguajes, extrae el primero y el último, usa rest operator para separar el primero del resto e intercambia dos variables usando desestructuración.",
+        "solutionFile": "ejercicios/ejercicio_08.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Desestructuración de Objetos - Crea un objeto persona con propiedades anidadas (dirección, contacto). Demuestra desestructuración básica, renombrado de variables, valores por defecto, desestructuración anidada y rest operator en objetos.",
+        "solutionFile": "ejercicios/ejercicio_09.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      },
+      {
+        "activityDescription": "Métodos de Objeto - Crea un objeto y demuestra Object.keys() (obtener claves), Object.values() (obtener valores), Object.entries() (obtener pares clave-valor) e iterar sobre el objeto con forEach().",
+        "solutionFile": "ejercicios/ejercicio_10.js",
+        "score": 0,
+        "fileFound": false,
+        "feedback": ""
+      }
+    ],
+    "overallScore": 0,
+    "totalActivities": 10,
+    "completedActivities": 0,
+    "summary": "Necesita mejorar. Completó 0/10 actividades (0%) con una calificación promedio de 0.0/5. Se recomienda revisar los conceptos fundamentales.",
+    "recommendations": [
+      "Completar los archivos faltantes: ejercicios/ejercicio_01.js, ejercicios/ejercicio_02.js, ejercicios/ejercicio_03.js, ejercicios/ejercicio_04.js, ejercicios/ejercicio_05.js, ejercicios/ejercicio_06.js, ejercicios/ejercicio_07.js, ejercicios/ejercicio_08.js, ejercicios/ejercicio_09.js, ejercicios/ejercicio_10.js",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
+    ],
+    "evaluatedAt": "2025-09-11T19:07:11.817Z",
+    "evaluatedBy": "Sistema de Evaluación Masiva"
+  }
+}
