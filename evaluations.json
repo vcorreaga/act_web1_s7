@@ -341,51 +341,51 @@
     "evaluatedAt": "2025-09-11T19:23:17.535Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "Julio28012020/act_web1_s7": {
-    "repositoryUrl": "Julio28012020/act_web1_s7",
-    "studentName": "Estudiante desconocido",
+  "MarioMunera1993/act_web1_s7": {
+    "repositoryUrl": "MarioMunera1993/act_web1_s7",
+    "studentName": "Mario Alonso Munera Velez",
     "activities": [
       {
         "activityDescription": "Gestión de Inventario Básico - Crea un array de objetos que represente un inventario de productos. Cada producto debe tener: id, nombre, precio, categoria, stock. Declara al menos 5 productos y muestra todos los productos, total de productos en inventario y valor total del inventario.",
         "solutionFile": "ejercicios/ejercicio_01.js",
-        "score": 0,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Archivo vacío - sin contenido para evaluar"
+        "feedback": "La solución es correcta y funcional. Se recomienda uniformizar la nomenclatura de las propiedades (ej: 'stock' en lugar de 'Stock') y agregar comentarios para mejorar la legibilidad."
       },
       {
         "activityDescription": "Filtrado de Productos por Categoría - Usando el inventario del ejercicio anterior, utiliza el método filter() para mostrar solo productos de la categoría 'Electrónicos', productos con stock menor a 10 y productos con precio mayor a $500.",
         "solutionFile": "ejercicios/ejercicio_02.js",
-        "score": 0,
+        "score": 5,
         "fileFound": true,
-        "feedback": "Archivo vacío - sin contenido para evaluar"
+        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es legible y bien estructurado, usando `filter` de forma adecuada. ¡Excelente trabajo!"
       },
       {
         "activityDescription": "Transformación de Datos con map() - Crea un array de estudiantes con nombre, edad, notas (array de números). Usa map() para crear un nuevo array con solo los nombres, crear un array con el promedio de cada estudiante y agregar una propiedad estado ('Aprobado' si promedio >= 70, 'Reprobado' si < 70).",
         "solutionFile": "ejercicios/ejercicio_03.js",
-        "score": 0,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Archivo vacío - sin contenido para evaluar"
+        "feedback": "La solución es correcta y funcional. Se podría mejorar la legibilidad usando nombres de variables más descriptivos y simplificar la función `revision` directamente dentro del `map`."
       },
       {
         "activityDescription": "Análisis de Ventas con reduce() - Dado un array de ventas con producto, cantidad, precio, fecha. Usa reduce() para calcular total de ingresos, producto más vendido (por cantidad) y promedio de venta por transacción.",
         "solutionFile": "ejercicios/ejercicio_04.js",
-        "score": 0,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Archivo vacío - sin contenido para evaluar"
+        "feedback": "La solución es correcta y funcional. Se podría mejorar la legibilidad y eficiencia del cálculo del producto más vendido usando `reduce` de manera más directa para obtener el producto máximo sin necesidad de iterar nuevamente sobre las claves del objeto."
       },
       {
         "activityDescription": "Búsqueda y Verificación - Crea un array de usuarios con id, nombre, email, activo. Implementa búsquedas usando find() para buscar usuario por email, findIndex() para obtener posición de usuario por id, some() para verificar si hay usuarios inactivos y every() para verificar si todos tienen email válido (contiene @).",
         "solutionFile": "ejercicios/ejercicio_05.js",
-        "score": 0,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Archivo vacío - sin contenido para evaluar"
+        "feedback": "La solución es correcta y funcional. Podrías mejorar la validación de email utilizando expresiones regulares para una mayor precisión."
       },
       {
         "activityDescription": "Manipulación de Arrays - Crea un array inicial [1, 2, 3, 4, 5] y demuestra push() y pop() (agregar y quitar del final), shift() y unshift() (agregar y quitar del inicio), splice() (insertar elementos en posición específica) y slice() (extraer porción sin modificar original).",
         "solutionFile": "ejercicios/ejercicio_06.js",
-        "score": 0,
+        "score": 5,
         "fileFound": true,
-        "feedback": "Archivo vacío - sin contenido para evaluar"
+        "feedback": "La actividad se resuelve correctamente, demostrando el uso adecuado de los métodos de array. El código es claro y bien estructurado, facilitando su comprensión."
       },
       {
         "activityDescription": "Ordenamiento y Reversión - Crea arrays de números desordenados (ordena ascendente y descendente), nombres de personas (ordena alfabéticamente), objetos con propiedad edad (ordena por edad) y usa reverse() para invertir el orden.",
@@ -416,16 +416,16 @@
         "feedback": "Archivo vacío - sin contenido para evaluar"
       }
     ],
-    "overallScore": 0,
+    "overallScore": 2.6,
     "totalActivities": 10,
-    "completedActivities": 0,
-    "summary": "Necesita mejorar. Completó 0/10 actividades (0%) con una calificación promedio de 0.0/5. Se recomienda revisar los conceptos fundamentales.",
+    "completedActivities": 6,
+    "summary": "Necesita mejorar. Completó 6/10 actividades (60%) con una calificación promedio de 2.6/5. Se recomienda revisar los conceptos fundamentales.",
     "recommendations": [
       "Revisar y mejorar las actividades con calificación baja",
       "Enfocarse en mejorar la documentación y comentarios del código",
       "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-09-11T19:24:14.596Z",
+    "evaluatedAt": "2025-09-11T19:25:18.034Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
