@@ -503,13 +503,13 @@
     ],
     "overallScore": 3.9,
     "totalActivities": 10,
-    "completedActivities": 9,
-    "summary": "Buen trabajo general. Completó 9/10 actividades (90%) con una calificación promedio de 3.9/5. Hay oportunidades de mejora en algunos aspectos.",
+    "completedActivities": 10,
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.9/5. Hay oportunidades de mejora en algunos aspectos.",
     "recommendations": [
       "Revisar y mejorar las actividades con calificación baja"
     ],
-    "evaluatedAt": "2025-09-12T00:55:38.127Z",
-    "evaluatedBy": "Sistema de Evaluación"
+    "evaluatedAt": "2025-09-12T01:24:44.837Z",
+    "evaluatedBy": "Sistema"
   },
   "MarioMunera1993/act_web1_s7": {
     "repositoryUrl": "MarioMunera1993/act_web1_s7",
